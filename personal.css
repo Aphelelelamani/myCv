@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    box-sizing:border-box;
+}
+
+    .logo{
+        position:sticky;
+        left:5em;
+    }
+    .shift{
+        position:relative;
+        left:52em;
+        width:23em;
+    }
+    .shift a{
+        text-decoration: none;
+        padding:2em;
+        color:white;
+        font-family: sans-serif;
+        width:55em;
+        position:sticky;
+    }
+    .shift a:hover{
+        color:black;
+        background-color:white;
+    }
+    #mypic{
+        position:absolute;
+        left:50px;
+        top:152px;
+        max-width:70%;
+        left:10em;
+    }
+    #myName{
+        position:relative;
+        color:white;
+        left:22em;
+        top:3em;
+        width:15em;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+
+    #discription{
+    font-family: 'Urbanist', sans-serif;
+        position:relative;
+        color:white;
+        left:35em;
+        top:7em;
+        width:45em;
+        line-height: 2em;
+        
+    }
+
+    #passion{
+        position:relative;
+        color:white;
+        left:35em;
+        top:10em;
+        width:45em;        
+        font-family: 'Urbanist', sans-serif;
+        line-height: 2em;
+    }
+
+    #calltoaction{
+        position:relative;
+        color:white;
+        left:35em;
+        top:7em;
+        border-radius: 60em 60em 60em 60em;
+        font-size:25px;
+    
+    }
+    #calltoaction:hover{
+        color:black;
+        background-color: white;
+    }
+    #skillsimage{
+        position:absolute;
+        top:55em;
+        left: 10em;
+    }
+#skilltitle{
+    position:relative;
+    color:white;
+    top:6em;
+    left:10em;
+    font-family: 'Urbanist', sans-serif;
+    font-size:55px;
+    width:10em;
+
+}
+
+#experience{
+    position:absolute;
+    left:42em;
+    top:55em;
+    color:white;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 2em;
+}
+
+#experience a{
+    text-decoration: none;
+    color:white;
+    font-style: italic;
+}
+
+    #css{
+        position:relative;
+        top:30em;
+        left:10em;
+        color:white;
+        width:10em;
+        font-family: 'Urbanist', sans-serif;
+    }
+
+    #html{
+        position:relative;        
+        top:22em;
+        left:10em;        
+        color:white;
+        width:10em;
+        font-family: 'Urbanist', sans-serif;
+    }
+
+    #javascript{
+        position:relative;        
+        top:34em;
+        left:10em;          
+        color:white;
+        width:10em;
+        font-family: 'Urbanist', sans-serif;
+    }
+
+    #scss{
+        position:relative;        
+        top:32em;
+        left:10em;         
+        color:white;
+        width:10em;
+        font-family: 'Urbanist', sans-serif;
+    }
+    .separation{
+        position:absolute;
+        top:45em;
+        height:1px;
+        color:white;
+    }
+    #lookback{
+        position:absolute;
+        top:35em;
+        left:5em;
+    }
+
+    #goingstair{
+        position:absolute;
+        top:65em;
+        left:60em;      
+    }
+
+    #activities{
+        position:absolute;
+        color:white;
+        width:18em;
+        font-family: 'Urbanist', sans-serif;
+        font-size:55px;
+        top:21em;
+        left:5em;
+}
+    #sparetime{
+    position:absolute;
+    left:32em;
+    top:89em;
+    color:white;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 2em;
+    }
+    #clownstuff{
+        position:absolute;
+        left:5em;
+        top:119em;
+        color:white;
+        font-family: 'Urbanist', sans-serif;
+        line-height: 2em;
+    }
+    body .divide {
+    position: absolute;
+    top:145em;
+    background-color:white;
+    width: 100%;
+    height: 70vh;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    justify-content: space-evenly;
+    padding: 25px;
+    border-radius: 0em 120em 120em 0em;
+}
+.section4{
+    width:30em;
+    background-color: white;
+}
+    .tainer {
+        position: relative;
+        margin-top: 50px;
+        width: 450px;
+        height: -webkit-min-content;
+        height: -moz-min-content;
+        height: min-content;
+        padding: 20px 0;
+        text-align: center;
+        border-radius: 20px;
+        overflow: hidden;
+        z-index: 2;
+        background-color: white;
+}
+
+    .tainer input, tainer button {
+        height: 40px;
+        width: 90%;
+        border-radius: 50px;
+        font-size: 18px;
+        
+}
+
+    .tainer input {
+        border: 2px solid black;
+        padding-left: 12px;
+        margin-bottom: 12px;
+        transition: 0.4s;
+        background-color: white;
+}
+
+    .tainer button {
+        Cursor: pointer;
+        letter-spacing: 1px;
+        transition: 0.4s;
+        color:white;
+        font-size:1em;
+        border-radius: 120em 120em 120em 120em;
+        
+}
+.tainer button:hover{
+    background-color:white;
+    color:black;
+}
+
+    .list {
+        position: absolute;
+        width: 450px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        background: white;
+        margin-top: 140px;
+        padding-top: 90px;
+        border-radius: 20px;
+        transition: 0.4s;
+        background-color: white;
+        
+}
+#linkedin{
+    position: absolute;
+    background-color: white;
+    left:35em;
+    bottom:13em;
+    width:5em;
+}
+#github{
+    position: absolute;
+    left:49em;
+    bottom:13em;
+    background-color: rgb(252, 252, 252);
+    width:5em;
+}
+#thumb{
+    position: absolute;
+    left:5em;
+    bottom:21em;
+    background-color: rgb(252, 252, 252);
+    width:2em;
+    transform: rotate(180deg);
+}
+#contactme{
+    position: absolute;
+    left:4em;
+    bottom:26em;
+    color:white;  
+}
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+        -size: 3.5rem;
+        }
+    }
