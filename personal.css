@@ -280,7 +280,7 @@
 #thumb{
     position: absolute;
     left:5em;
-    bottom:22em;
+    bottom:25em;
     background-color: rgb(252, 252, 252);
     width:2em;
     transform: rotate(180deg);
@@ -288,7 +288,7 @@
 #contactme{
     position: absolute;
     left:4em;
-    bottom:28em;
+    bottom:32em;
     color:white;  
 }
     .bd-placeholder-img {
